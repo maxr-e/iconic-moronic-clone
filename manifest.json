@@ -1,7 +1,7 @@
 {
     "name": "Iconic->Moronic",
     "short-name": "iconic-moronic",
-    "manifest-version": 1,
+    "manifest-version": 2,
     "version": "1.0",
     "description": "Swaps the word iconic with moronic.",
     "author": "Max Royal-Eisenberg",
