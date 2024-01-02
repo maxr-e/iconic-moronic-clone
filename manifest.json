@@ -1,0 +1,17 @@
+{
+    "name": "Iconic->Moronic",
+    "short-name": "iconic-moronic",
+    "manifest-version": 1,
+    "version": "1.0",
+    "description": "Swaps the word iconic with moronic.",
+    "author": "Max Royal-Eisenberg",
+    "content_script":
+    [
+        {
+            "matches": ["*://*/*"],
+            "all_frames": true,
+            "js": ["content_script.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
